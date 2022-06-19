@@ -1,0 +1,23 @@
+.Score{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ScoreScore{
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ScoreRespuesta{
+    color: #FAFAFA;
+    font-size: 25px;
+}
+
+.ScorePreguntas{
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 15px;
+}

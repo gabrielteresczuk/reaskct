@@ -1,0 +1,49 @@
+.Resultados{
+    background-color: #FAFAFA;
+    padding: 25px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: auto auto;
+    z-index: 999;
+    width: 600px;
+}
+
+.Resultados h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.ResultadosLista{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.ResultadosLista li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ResultadoConsejo{
+    font-weight: 600;
+}
+
+.Restart{
+    border-radius: 5px;
+    color: #FAFAFA;
+    padding: 5px;
+    background-color: #7C4DFF;
+    border: 1px solid #7C4DFF;
+}
+
+.Restart:hover{
+    border-radius: 5px;
+    color: #7C4DFF;
+    padding: 5px;
+    background-color: #FAFAFA;
+    border: 1px solid #7C4DFF;
+    cursor: pointer;
+}
